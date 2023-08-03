@@ -1,0 +1,36 @@
+*{
+ margin:0 ; 
+ padding: 0;  
+ background-color: #777B7E;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width:100vw;
+}
+
+.one{
+    font-size: 80px;
+    padding-bottom:100px;
+}
+
+.two{
+    font-size: 20px;
+    padding-bottom:100px;
+}
+
+.three{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.three:hover{
+     cursor: pointer;
+}
